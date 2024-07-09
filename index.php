@@ -108,7 +108,7 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-md-3">Tours & Travel</h4>
                             <h1 class="display-3 text-white mb-md-4">Let's Discover The World Together</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a>
+                            <a href="booking.php" class="btn btn-primary py-md-3 px-md-5 mt-2">Book Now</a>
                             
                         </div>
                     </div>
@@ -216,9 +216,9 @@
                         </div>
                         <div class="d-flex flex-column">
                             <h5 class="">Best Services</h5>
-                            <p class="m-0"> *travel rwanda
-                                            * coffe shops
-                                            *handcraft          
+                            <p class="m-0"> *	Escorting tour group
+                                            * 	Booking offers
+                                            *   Itinerary planning        
                             </p>
                         </div>
                     </div>
