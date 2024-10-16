@@ -1,44 +1,3 @@
-<?php
-session_start();
-
-$servername = "localhost";
-$username_db = "root";
-$password_db = "";
-$database = "tour";
-$conn = new mysqli($servername, $username_db, $password_db, $database);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-$registration_message = '';
-
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['register'])) {
-    $username = $_POST['username'];
-    $email = $_POST['email'];
-    $telephone = $_POST['telephone'];
-    $password = $_POST['password'];
-    $retype_password = $_POST['retype_password'];
-
-    if ($password === $retype_password) {
-        $hashed_password = password_hash($password, PASSWORD_DEFAULT);
-        $sql = "INSERT INTO user (username, email, telephone, password) VALUES (?, ?, ?, ?)";
-        $stmt = $conn->prepare($sql);
-        $stmt->bind_param("ssss", $username, $email, $telephone, $hashed_password);
-
-        if ($stmt->execute()) {
-            $registration_message = "<p style='color:green;'>Registration successful! You can now log in.</p>";
-        } else {
-            $registration_message = "<p style='color:red;'>Error: " . $stmt->error . "</p>";
-        }
-
-        $stmt->close();
-    } else {
-        $registration_message = "<p style='color:red;'>Passwords do not match. Please try again.</p>";
-    }
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -119,9 +78,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['register'])) {
 <body>
     <div class="box">
         <h2>Register</h2>
-        <?php if (!empty($registration_message)): ?>
-            <div class="<?php echo strpos($registration_message, 'green') !== false ? 'success-message' : 'error-message'; ?>"><?php echo $registration_message; ?></div>
-        <?php endif; ?>
         <form action="" method="post">
             <div class="form-group">
                 <label for="reg_username">Username:</label>

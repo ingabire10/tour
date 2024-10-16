@@ -76,20 +76,20 @@
                 <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
                     <div class="navbar-nav ml-auto py-0">
                         <a href="home.php" class="nav-item nav-link">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
-                        <a href="package.html" class="nav-item nav-link">Tour Packages</a>
+                        <a href="about.php" class="nav-item nav-link">About</a>
+                        <a href="service.php" class="nav-item nav-link">Services</a>
+                        <a href="package.php" class="nav-item nav-link">Tour Packages</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu border-0 rounded-0 m-0">
-                                <a href="blog.html" class="dropdown-item">Blog Grid</a>
-                                <a href="single.html" class="dropdown-item">Blog Detail</a>
+                                <a href="blog.php" class="dropdown-item">Blog Grid</a>
+                                <a href="single.php" class="dropdown-item">Blog Detail</a>
                                 <a href="destination.php" class="dropdown-item active">Destination</a>
-                                <a href="guide.html" class="dropdown-item">Travel Guides</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="guide.php" class="dropdown-item">Travel Guides</a>
+                                <a href="testimonial.php" class="dropdown-item">Testimonial</a>
                             </div>
                         </div>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        <a href="contact.php" class="nav-item nav-link">Contact</a>
                     </div>
                 </div>
             </nav>
@@ -124,64 +124,48 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
-                    <h5 class="">•	Volcanoes national ParkKinigi Musanze (Ruhengeri) Rwanda</h5>
+                        <h5 class="">• Volcanoes national ParkKinigi Musanze (Ruhengeri) Rwanda</h5>
                         <img class="img-fluid" src="image/kinigi.jpeg" alt="">
                         <img class="img-fluid" src="image/volo1.jpeg" alt="">
-                
-                       
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
-                    <h5 class="">•	Nyungwe national park Southern park of Rwanda</h5>
+                        <h5 class="">• Nyungwe national park Southern park of Rwanda</h5>
                         <img class="img-fluid" src="image/nyungwe.jpeg" alt="">
                         <img class="img-fluid" src="image/nyungwe1.jpeg" alt="">
                         <img class="img-fluid" src="image/nyungwe2.jpeg" alt="">
                         <img class="img-fluid" src="image/nyungwe3.jpeg" alt="">
-                    
-                            
-                            
-                        
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
                         <img class="img-fluid" src="img/destination-3.jpg" alt="">
-                        
-                            <h5 class="">•	Akagera national Park in Eastern province of Rwanda</h5>
-                            
+                        <h5 class="">• Akagera national Park in Eastern province of Rwanda</h5>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
-                            <h5 class="">•	Hiking In Rwanda</h5>
-                            <img class="img-fluid" src="image/hiking.jpeg" alt="">
-                            <img class="img-fluid" src="image/hiking1.jpeg" alt="">
-                            <img class="img-fluid" src="image/hiking2.jpeg" alt="">
-                            <img class="img-fluid" src="image/hiking3.jpeg" alt="">
-                        
-                        </a>
+                        <h5 class="">• Hiking In Rwanda</h5>
+                        <img class="img-fluid" src="image/hiking.jpeg" alt="">
+                        <img class="img-fluid" src="image/hiking1.jpeg" alt="">
+                        <img class="img-fluid" src="image/hiking2.jpeg" alt="">
+                        <img class="img-fluid" src="image/hiking3.jpeg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
                         <img class="img-fluid" src="img/destination-5.jpg" alt="">
-                        
-                            <h5 class="">•	Lake Kivu Rwanda</h5>
-                            
-                       
+                        <h5 class="">• Lake Kivu Rwanda</h5>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="destination-item position-relative overflow-hidden mb-2">
-                    <h5 class="">•	Coffee experience In Rwanda</h5>
+                        <h5 class="">• Coffee experience In Rwanda</h5>
                         <img class="img-fluid" src="image/coffee.jpeg" alt="">
                         <img class="img-fluid" src="image/coffee1.jpeg" alt="">
                         <img class="img-fluid" src="image/coffee2.jpeg" alt="">
                         <img class="img-fluid" src="image/coffee3.jpeg" alt="">
-                         
-                            
-                        </a>
                     </div>
                 </div>
             </div>
@@ -191,96 +175,66 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-white-50 py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
-        <div class="row pt-5">
-            <div class="col-lg-3 col-md-6 mb-5">
-                <a href="" class="navbar-brand">
-                    <h1 class="text-primary"><span class="text-white">TRAVEL</span>ER</h1>
-                </a>
-                <p>Sed ipsum clita tempor ipsum ipsum amet sit ipsum lorem amet labore rebum lorem ipsum dolor. No sed vero lorem dolor dolor</p>
-                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Follow Us</h6>
-                <div class="d-flex justify-content-start">
-                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-outline-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+    <div class="container-fluid bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-primary">Traveler</h5>
+                    <p class="text-muted mb-4">Explore our world's most beautiful places and attractions.</p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="" class="text-white"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="" class="text-white"><i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="" class="text-white"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Our Services</h5>
-                <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Destination</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Services</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Packages</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Guides</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
-                    <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Blog</a>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-primary">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="home.php">Home</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="service.php">Services</a></li>
+                        <li><a href="package.php">Tour Packages</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Usefull Links</h5>
-                <div class="d-flex flex-column justify-content-start">
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About</a>
-                    <a class="text-white-50 mb-2" href="destination.php"><i class="fa fa-angle-right mr-2"></i>Destination</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Services</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Packages</a>
-                    <a class="text-white-50 mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Guides</a>
-                    <a class="text-white-50 mb-2" href=""><i class="fa fa-angle-right mr-2"></i>Testimonial</a>
-                    <a class="text-white-50" href="#"><i class="fa fa-angle-right mr-2"></i>Blog</a>
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-primary">Latest Blog</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="blog.php">Blog Grid</a></li>
+                        <li><a href="single.php">Blog Detail</a></li>
+                        <li><a href="destination.php">Destination</a></li>
+                        <li><a href="guide.php">Travel Guides</a></li>
+                        <li><a href="testimonial.php">Testimonial</a></li>
+                    </ul>
                 </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-5">
-                <h5 class="text-white text-uppercase mb-4" style="letter-spacing: 5px;">Contact Us</h5>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>123 Street, New York, USA</p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                <p><i class="fa fa-envelope mr-2"></i>info@example.com</p>
-                <h6 class="text-white text-uppercase mt-4 mb-3" style="letter-spacing: 5px;">Newsletter</h6>
-                <div class="w-100">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-light" style="padding: 25px;" placeholder="Your Email">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary px-3">Sign Up</button>
-                        </div>
-                    </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-primary">Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-map-marker-alt"></i> Kigali, Rwanda</li>
+                        <li><i class="fa fa-phone-alt"></i> +250786574146</li>
+                        <li><i class="fa fa-envelope"></i> oliviertourguide@gmail.com</li>
+                    </ul>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-        <div class="row">
-            <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white-50">Copyright &copy; <a href="#">oliviertourguide</a>. All Rights Reserved.</a>
-                </p>
-            </div>
-            <div class="col-lg-6 text-center text-md-right">
-                <p class="m-0 text-white-50">Designed by <a href="https://htmlcodex.com">HTML Codex</a>
-                </p>
             </div>
         </div>
     </div>
     <!-- Footer End -->
 
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    <!-- Back to Top Start -->
+    <a href="#" class="btn btn-primary back-to-top rounded-pill" style="display: inline;"><i class="fa fa-angle-up"></i></a>
+    <!-- Back to Top End -->
 
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
 </body>
 
 </html>

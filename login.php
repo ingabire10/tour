@@ -1,49 +1,3 @@
-<?php
-session_start();
-
-$servername = "localhost";
-$username_db = "root";
-$password_db = "";
-$database = "tour";
-$conn = new mysqli($servername, $username_db, $password_db, $database);
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-$login_error = '';
-
-// Function to check the user's credentials
-function check_credentials($conn, $username, $password) {
-    $sql = "SELECT password FROM user WHERE username = ? OR email = ? OR telephone = ?";
-    $stmt = $conn->prepare($sql);
-    $stmt->bind_param("sss", $username, $username, $username);
-    $stmt->execute();
-    $stmt->store_result();
-
-    if ($stmt->num_rows > 0) {
-        $stmt->bind_result($hashed_password);
-        $stmt->fetch();
-        return password_verify($password, $hashed_password);
-    }
-
-    return false;
-}
-
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['login'])) {
-    $username = $_POST['username'];
-    $password = $_POST['password'];
-
-    if (check_credentials($conn, $username, $password)) {
-        $_SESSION['username'] = $username;
-        header("Location: index.php");
-        exit();
-    } else {
-        $login_error = "Invalid username or password.";
-    }
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -120,10 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['login'])) {
 <body>
     <div class="box">
         <h2>Login</h2>
-        <?php if (!empty($login_error)): ?>
-            <div class="error-message"><?php echo $login_error; ?></div>
-        <?php endif; ?>
-        <form action="" method="post">
+        <form action="login.php" method="post">
             <div class="form-group">
                 <label for="username">Username, Email, or Telephone:</label>
                 <input type="text" id="username" name="username" required>
